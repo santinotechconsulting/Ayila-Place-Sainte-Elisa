@@ -1,0 +1,803 @@
+# MASTER DEVELOPMENT PROMPT: AYILA'A | PLACE SAINTE ELISA
+## Wedding & Event Vendor Marketplace — Cameroon
+
+### 1. YOUR ROLE
+
+Act as a senior full-stack software engineer, UI/UX designer, product manager, database architect, cybersecurity specialist, and startup business strategist.
+
+Your mission is to design, develop, test, and prepare for deployment a modern, responsive, secure, and commercially viable Wedding and Event Vendor Marketplace for Cameroon, launching first in Douala.
+
+Build a functional web application with real navigation, working forms, database integration, authentication, vendor dashboards, search and filtering, and an administration panel. Do not stop at a landing page or static demonstration.
+
+The platform should be scalable to other cities in Cameroon and, eventually, other African countries.
+
+**Working brand:** Ayila'a | Place Sainte Elisa
+
+Treat this as a working brand name. Keep the brand name, logo, contact information, and visual theme configurable so they can be changed later without rebuilding the application.
+
+### 2. BUSINESS OBJECTIVE
+
+Create one trusted online marketplace where individuals, couples, families, businesses, churches, and event planners can discover, compare, contact, and book wedding and event service providers.
+
+The platform should initially serve Douala, Cameroon, and gradually expand to Yaoundé, Buea, Limbe, Bamenda, and other cities.
+
+The platform must solve the following problems:
+
+- Difficulty finding reliable wedding and event vendors.
+- Lack of transparent pricing and service packages.
+- Difficulty comparing vendors and their portfolios.
+- Uncertainty about vendor availability.
+- Poor communication between customers and vendors.
+- Limited online visibility for small local businesses.
+- Difficulty promoting event services to targeted customers.
+
+### 3. VENDOR CATEGORIES
+
+Create searchable categories for:
+
+1. Wedding venues and reception halls.
+2. Event decorators and florists.
+3. Catering services and wedding cakes.
+4. Photographers and videographers.
+5. DJs, live bands, and sound services.
+6. Makeup artists and hairstylists.
+7. Masters of ceremony (MCs).
+8. Wedding planners and event coordinators.
+9. Bridal boutiques, wedding dresses, and suits.
+10. Equipment, chairs, tables, tents, lighting, and stage rentals.
+11. Transportation and wedding cars.
+12. Invitations, printing, and event stationery.
+13. Ushers, waiters, and event staffing.
+14. Traditional wedding services.
+15. Other event-related services.
+
+Allow administrators to add, edit, deactivate, or remove categories.
+
+### 4. TARGET USERS AND ACCOUNT TYPES
+
+Build four main account types.
+
+**A. Customers**
+- Register and log in securely.
+- Search vendors by city, category, budget, and event date.
+- View vendor profiles, photos, videos, prices, packages, and reviews.
+- Save favorite vendors.
+- Submit inquiries and booking requests.
+- Compare shortlisted vendors.
+- Track inquiry and booking statuses.
+- Contact vendors using available communication options.
+- Report suspicious listings and submit reviews after verified service completion.
+
+**B. Vendors**
+- Create and manage a business profile.
+- Upload portfolios, service images, and promotional videos.
+- Define service categories and operating locations.
+- Publish starting prices and detailed service packages in XAF (FCFA).
+- Set available dates and unavailable dates.
+- Receive and respond to customer inquiries.
+- Accept, decline, or propose changes to booking requests.
+- Track leads, bookings, profile views, and customer engagement.
+- Select free or paid promotional plans.
+- Manage subscription or promotional payment status.
+- Receive notifications for new leads and booking updates.
+
+**C. Platform Administrators**
+- Access a secure administration dashboard.
+- Approve, reject, suspend, and verify vendors.
+- Manage customers, categories, cities, listings, and packages.
+- Moderate portfolios, reviews, and reported content.
+- Manage featured listings and advertising placements.
+- Monitor leads, payments, promotions, and platform revenue.
+- View platform analytics and export business reports.
+- Manage site settings and support requests.
+- Maintain an audit trail for important administrative actions.
+
+**D. Event Planners**
+- Create event projects and save vendor shortlists.
+- Compare vendor offers.
+- Organize vendors by event.
+- Share a shortlist with a customer or planning team.
+- Track outstanding inquiries and booking decisions.
+
+Event planner functionality may be introduced as a separate account type or enabled through customer accounts if that simplifies the initial MVP.
+
+### 5. WEBSITE PAGES
+
+Build the following pages:
+
+1. Home page.
+2. Browse all vendors.
+3. Category listing pages.
+4. Vendor search results.
+5. Individual vendor profile.
+6. Vendor package and price comparison.
+7. Customer registration and login.
+8. Vendor registration and onboarding.
+9. Customer dashboard.
+10. Vendor dashboard.
+11. Booking and inquiry management.
+12. Favorites and comparison list.
+13. Featured vendors and promotions.
+14. Pricing and vendor membership plans.
+15. About Us.
+16. Contact and customer support.
+17. Frequently Asked Questions.
+18. Terms and Conditions.
+19. Privacy Policy.
+20. Vendor guidelines and verification policy.
+21. Administrator dashboard.
+22. Not-found and error pages.
+
+### 6. HOMEPAGE DESIGN
+
+Create a premium, elegant, trustworthy, mobile-first design inspired by modern wedding directories and African event culture.
+
+Use:
+- A sophisticated ivory or white background.
+- Deep burgundy, forest green, or dark plum as the primary brand color.
+- Muted gold accents.
+- Elegant typography and generous whitespace.
+- High-quality wedding and event photography.
+- Rounded cards, subtle shadows, and polished interactions.
+- Clear calls to action and intuitive navigation.
+
+The homepage must include:
+
+**Hero section**
+Headline: “Plan Your Perfect Event with Trusted Professionals.”
+
+Supporting text: “Discover, compare, and connect with the best wedding and event vendors in Douala, Cameroon.”
+
+Search controls:
+- What service do you need?
+- Where is your event?
+- Event date.
+- Estimated budget.
+
+Primary button: “Find Vendors”
+
+Secondary button: “List Your Business”
+
+**Additional sections**
+- Popular vendor categories.
+- Featured vendors.
+- Recently added vendors.
+- Wedding venues and reception spaces.
+- Vendors by budget.
+- How the platform works.
+- Special event packages.
+- Customer testimonials, using real testimonials only when available.
+- Become a vendor call to action.
+- Frequently asked questions.
+- Footer with navigation, contact information, and social links.
+
+Do not fabricate customer testimonials, vendor reviews, verification badges, or business statistics. Use clearly labeled demonstration content during development.
+
+### 7. VENDOR PROFILE REQUIREMENTS
+
+Every vendor must have a professional public profile containing:
+
+- Business name and logo.
+- Verification status.
+- Vendor category.
+- City and service areas.
+- Business description.
+- Contact information with appropriate privacy controls.
+- Portfolio gallery.
+- Services offered.
+- Starting price in XAF.
+- Detailed packages and package inclusions.
+- Additional charges where applicable.
+- Availability calendar.
+- Booking requirements.
+- Cancellation and refund policy.
+- Customer ratings and verified reviews.
+- Response time, where sufficient data exists.
+- Inquiry and booking request buttons.
+- Share profile functionality.
+- Similar vendors.
+
+Allow vendors to mark prices as “Starting from,” “Fixed package,” or “Request a quote.”
+
+Do not display a vendor as available for a particular date unless the vendor has supplied relevant availability information. Label unconfirmed availability clearly.
+
+### 8. ADVANCED SEARCH AND COMPARISON
+
+Implement functional search and filtering by:
+
+- Service category.
+- City and neighborhood.
+- Event date.
+- Minimum and maximum budget.
+- Price range.
+- Vendor rating.
+- Verified status.
+- Available services.
+- Package type.
+- Featured status.
+
+Provide sorting by relevance, price, rating, newest listing, and popularity where sufficient data exists.
+
+Allow customers to compare up to four vendors side by side, showing:
+- Starting price.
+- Package details.
+- Services included.
+- Location.
+- Portfolio highlights.
+- Ratings and review counts.
+- Availability information.
+- Booking requirements.
+
+Search results must be generated from the database, not hardcoded arrays.
+
+### 9. BOOKING AND INQUIRY SYSTEM
+
+Build a working inquiry and booking request workflow.
+
+Customers should be able to submit:
+- Event type.
+- Event date.
+- Event location.
+- Expected number of guests, where relevant.
+- Budget range.
+- Requested services.
+- Additional requirements.
+- Preferred contact method.
+
+Workflow:
+
+1. Customer submits an inquiry.
+2. System saves the inquiry in the database.
+3. Vendor receives an in-app notification.
+4. Vendor responds with a quote or requests more information.
+5. Customer reviews the quote.
+6. Vendor and customer confirm the booking terms.
+7. Booking status updates accordingly.
+8. Both parties can view the history of the request.
+
+Use statuses such as:
+- New inquiry.
+- Awaiting vendor response.
+- Quote received.
+- Negotiation.
+- Accepted.
+- Confirmed.
+- Completed.
+- Cancelled.
+- Declined.
+
+A confirmed booking must require an explicit confirmation step. Do not assume that sending an inquiry constitutes a confirmed booking.
+
+For the MVP, do not require the platform to collect the entire vendor service payment. Keep vendor-customer payments separate unless a supported payment integration is deliberately implemented.
+
+### 10. REVENUE MODEL
+
+The platform must support multiple revenue streams while launching with a free basic vendor listing.
+
+**Revenue stream A: Premium vendor profiles**
+Vendors pay to access enhanced profiles, larger portfolios, improved visibility, and business analytics.
+
+**Revenue stream B: Paid leads**
+Allow vendors to purchase access to eligible customer leads. Make lead pricing, eligibility, vendor access, and refund rules configurable. Never sell the same exclusive lead to multiple vendors if it has been advertised as exclusive.
+
+**Revenue stream C: Featured placements**
+Allow vendors to pay for featured placement in search results, category pages, and homepage sections.
+
+Clearly label paid promotional placements as sponsored or featured.
+
+**Revenue stream D: Event promotion**
+Allow event organizers, wedding fairs, venues, and businesses to promote events through paid listings.
+
+**Revenue stream E: Vendor subscription plans**
+Prepare configurable plans such as:
+- Free: basic listing.
+- Starter: enhanced profile and portfolio.
+- Professional: more visibility and business tools.
+- Featured: premium promotional placement.
+
+Do not hardcode prices. Store plans, fees, billing periods, and promotional durations in the database.
+
+For the initial launch, prioritize:
+1. Free vendor registration.
+2. Paid featured listings.
+3. Premium vendor profiles.
+4. Paid leads after the lead workflow has been tested.
+
+Build the other revenue streams so they can be activated later.
+
+### 11. CAMEROON-SPECIFIC REQUIREMENTS
+
+Configure the application for the Cameroonian market.
+
+- Default currency: XAF (FCFA).
+- Default country: Cameroon.
+- Initial city: Douala.
+- Phone number input with Cameroon country code +237.
+- French and English language support.
+- Responsive design for affordable Android phones and desktop browsers.
+- Optimize images and pages for slower mobile connections.
+- Use clear, simple language suitable for local customers and small businesses.
+- Allow neighborhood-level location descriptions.
+- Provide appropriate consent before publishing contact details or location information.
+
+Payment integration:
+Prepare an abstraction layer for supported local payment providers, including MTN Mobile Money and Orange Money, subject to provider availability, merchant eligibility, technical documentation, and approval.
+
+Do not simulate successful payments in production.
+
+If payment integration credentials or provider access are unavailable, implement a clearly labeled development payment adapter and an administrator-managed payment confirmation process. Never mark a payment as verified solely because a browser sends a success message.
+
+Keep all payment secrets on the server. Validate payment callbacks and transaction references using provider-approved verification mechanisms.
+
+Do not promise automated vendor payouts unless a supported and approved payout API is available.
+
+### 12. TECHNICAL ARCHITECTURE
+
+Use Google AI Studio to generate a maintainable full-stack application.
+
+Preferred stack:
+- Frontend: React with TypeScript.
+- Styling: Tailwind CSS or a consistent modern component system.
+- Backend: secure server-side API endpoints.
+- Database and authentication: Supabase with PostgreSQL and Supabase Auth, or an equivalent production-ready service if the environment requires a different supported stack.
+- Image storage: Supabase Storage or equivalent object storage.
+- Deployment: a production-ready hosting provider compatible with the generated application.
+- Version control: GitHub.
+
+Before implementing, inspect the current Google AI Studio environment and use the supported application-generation workflow and integrations. Do not assume that Google AI Studio itself provides a production database, hosting environment, or payment processing.
+
+Keep the architecture modular, documented, and portable.
+
+Separate:
+- UI components.
+- Pages and routes.
+- Authentication and authorization.
+- Business logic.
+- Database access.
+- Validation schemas.
+- Payment adapters.
+- Notification services.
+- Administration tools.
+
+Use environment variables for all credentials and secrets. Provide an `.env.example` containing placeholder variable names, never real secrets.
+
+### 13. DATABASE DESIGN
+
+Create database migrations and appropriate relationships for at least these tables:
+
+**users**
+- id
+- full_name
+- email
+- phone
+- preferred_language
+- account_status
+- created_at
+
+**user_roles**
+- id
+- user_id
+- role
+- created_at
+
+**vendors**
+- id
+- owner_user_id
+- business_name
+- slug
+- description
+- logo_url
+- primary_category_id
+- city
+- neighborhood
+- service_areas
+- verification_status
+- listing_status
+- created_at
+- updated_at
+
+**categories**
+- id
+- name_en
+- name_fr
+- slug
+- parent_id
+- active
+
+**vendor_services**
+- id
+- vendor_id
+- category_id
+- title
+- description
+- starting_price_xaf
+- pricing_type
+- active
+
+**vendor_packages**
+- id
+- vendor_id
+- name
+- description
+- price_xaf
+- inclusions
+- exclusions
+- active
+
+**portfolio_items**
+- id
+- vendor_id
+- media_url
+- media_type
+- caption
+- display_order
+- moderation_status
+
+**vendor_availability**
+- id
+- vendor_id
+- date
+- status
+- notes
+
+**inquiries**
+- id
+- customer_user_id
+- vendor_id
+- event_type
+- event_date
+- event_location
+- budget_min_xaf
+- budget_max_xaf
+- requirements
+- status
+- created_at
+
+**quotes**
+- id
+- inquiry_id
+- vendor_id
+- amount_xaf
+- inclusions
+- exclusions
+- terms
+- valid_until
+- status
+- created_at
+
+**bookings**
+- id
+- inquiry_id
+- customer_user_id
+- vendor_id
+- agreed_amount_xaf
+- event_date
+- status
+- confirmation_timestamp
+- created_at
+
+**reviews**
+- id
+- customer_user_id
+- vendor_id
+- booking_id
+- rating
+- review_text
+- moderation_status
+- created_at
+
+**favorites**
+- id
+- customer_user_id
+- vendor_id
+- created_at
+
+**vendor_plans**
+- id
+- name
+- price_xaf
+- billing_period
+- features
+- active
+
+**subscriptions**
+- id
+- vendor_id
+- plan_id
+- status
+- starts_at
+- expires_at
+
+**payments**
+- id
+- payer_user_id
+- vendor_id
+- amount_xaf
+- payment_provider
+- transaction_reference
+- payment_purpose
+- status
+- verified_at
+- created_at
+
+**lead_purchases**
+- id
+- vendor_id
+- inquiry_id
+- amount_xaf
+- access_status
+- created_at
+
+**promotions**
+- id
+- vendor_id
+- promotion_type
+- start_at
+- end_at
+- status
+- payment_id
+
+**notifications**
+- id
+- user_id
+- type
+- title
+- message
+- read_at
+- created_at
+
+**reports**
+- id
+- reporter_user_id
+- reported_vendor_id
+- reason
+- status
+- admin_notes
+- created_at
+
+**audit_logs**
+- id
+- actor_user_id
+- action
+- entity_type
+- entity_id
+- created_at
+
+Add primary keys, foreign keys, indexes, uniqueness constraints, timestamps, and suitable validation rules.
+
+Use database constraints and server-side validation to protect business rules. Treat service areas, package inclusions, and other structured data consistently. Avoid duplicate user accounts and duplicate vendor slugs.
+
+### 14. API ENDPOINTS
+
+Implement and document secure API endpoints, adapting route names to the chosen framework.
+
+Authentication:
+- POST /api/auth/register
+- POST /api/auth/login
+- POST /api/auth/logout
+- GET /api/auth/me
+
+Categories and search:
+- GET /api/categories
+- GET /api/vendors
+- GET /api/vendors/:slug
+- GET /api/vendors/:id/packages
+- GET /api/vendors/:id/availability
+
+Vendor management:
+- POST /api/vendors
+- PATCH /api/vendors/:id
+- POST /api/vendors/:id/portfolio
+- POST /api/vendors/:id/services
+- POST /api/vendors/:id/packages
+- PATCH /api/vendors/:id/availability
+
+Inquiries and bookings:
+- POST /api/inquiries
+- GET /api/inquiries
+- GET /api/inquiries/:id
+- POST /api/inquiries/:id/quotes
+- PATCH /api/inquiries/:id/status
+- POST /api/bookings
+- PATCH /api/bookings/:id/status
+
+Reviews and favorites:
+- POST /api/vendors/:id/reviews
+- GET /api/vendors/:id/reviews
+- POST /api/favorites
+- DELETE /api/favorites/:vendorId
+
+Monetization:
+- GET /api/vendor-plans
+- POST /api/subscriptions
+- POST /api/promotions
+- POST /api/leads/:inquiryId/purchase
+- GET /api/payments/:id/status
+
+Administration:
+- GET /api/admin/overview
+- GET /api/admin/vendors
+- PATCH /api/admin/vendors/:id/verification
+- GET /api/admin/reports
+- PATCH /api/admin/reports/:id
+- GET /api/admin/payments
+
+Payment provider callbacks must use verified signatures or the provider's documented verification method.
+
+For every endpoint, implement input validation, authorization, correct error handling, and pagination where appropriate. Do not trust user IDs, vendor ownership, payment amounts, or roles supplied by the browser.
+
+### 15. SECURITY AND PRIVACY
+
+Implement:
+- Secure authentication and session handling.
+- Role-based authorization.
+- Database row-level security policies where supported.
+- Server-side input validation.
+- Protection against unauthorized data access.
+- Rate limiting for sensitive endpoints.
+- Safe file upload restrictions and size limits.
+- Secure image storage and access policies.
+- Protection against common injection and cross-site scripting attacks.
+- Verified payment processing.
+- Audit logging for important administrative operations.
+- Account deactivation and data deletion workflows.
+- Privacy-conscious contact information handling.
+
+Customers must not edit other customers' bookings or access another user's private inquiries.
+
+Vendors must not edit another vendor's listings, quotes, bookings, or payments.
+
+Only authorized administrators may approve vendors, moderate content, or modify administrative settings.
+
+A vendor must not be able to approve their own verification status.
+
+### 16. NOTIFICATIONS
+
+Implement in-app notifications for:
+- New inquiries.
+- New quotes.
+- Booking status changes.
+- Vendor verification results.
+- Subscription and promotion status.
+- Payment status updates.
+- Moderation decisions.
+
+Structure the notification system so email, SMS, or WhatsApp Business notifications can be added later using authorized providers.
+
+Do not claim that SMS or WhatsApp notifications work until the relevant provider has been configured and tested.
+
+### 17. ADMINISTRATION AND BUSINESS ANALYTICS
+
+The administration dashboard should display:
+- Registered customers.
+- Registered vendors.
+- Verified vendors.
+- Active listings.
+- New inquiries.
+- Confirmed bookings.
+- Active promotions.
+- Paid leads.
+- Verified revenue.
+- Pending payment confirmations.
+- Reported listings.
+- Popular vendor categories.
+- Search activity and vendor engagement.
+
+Distinguish actual verified revenue from pending, failed, refunded, or unverified payments.
+
+Provide date filters and export options where practical.
+
+### 18. TESTING REQUIREMENTS
+
+Write and execute tests for:
+
+- Customer registration and login.
+- Vendor registration and onboarding.
+- Role-based access control.
+- Vendor search and filtering.
+- Vendor profile creation and editing.
+- Portfolio uploads.
+- Package creation and price display.
+- Availability management.
+- Inquiry submission.
+- Quote creation and acceptance.
+- Booking confirmation and cancellation.
+- Verified review submission.
+- Subscription and promotion workflows.
+- Payment verification and failed transactions.
+- Duplicate payment callback handling.
+- Administrator verification and moderation.
+- Database row-level security.
+- Mobile responsiveness.
+- Empty states, loading states, and error handling.
+
+Include unit tests, integration tests, and end-to-end tests for the most important customer journeys.
+
+Do not report tests as passing unless they have actually been executed. Document any tests that cannot be run in the current environment.
+
+### 19. IMPLEMENTATION STRATEGY
+
+Work in the following phases.
+
+**Phase 1: Project foundation**
+- Inspect the environment and determine the supported stack.
+- Establish the folder structure.
+- Create the design system.
+- Configure database access and authentication.
+- Define environment variables and migrations.
+
+**Phase 2: Marketplace MVP**
+- Build the homepage.
+- Build category browsing and vendor search.
+- Build vendor profiles and portfolio galleries.
+- Implement customer and vendor registration.
+- Build vendor dashboards and profile management.
+- Implement inquiries, quotes, and booking requests.
+
+**Phase 3: Administration**
+- Implement vendor approval.
+- Build moderation tools.
+- Build basic business analytics.
+- Add reports and audit logs.
+
+**Phase 4: Monetization**
+- Implement featured listings.
+- Implement configurable vendor plans.
+- Add premium profile functionality.
+- Implement the paid lead workflow.
+- Integrate supported payments when credentials and approval are available.
+
+**Phase 5: Testing and deployment**
+- Run tests.
+- Fix functional and security issues.
+- Prepare database migrations.
+- Document environment configuration.
+- Prepare deployment instructions.
+- Provide a production readiness checklist.
+
+### 20. IMPORTANT EXECUTION RULES
+
+1. Start by generating a short architecture plan and the initial project file structure.
+2. Then begin implementing the actual application.
+3. Prioritize a working MVP over unnecessary complexity.
+4. Do not generate a static-only website and claim it is complete.
+5. Do not use mock data as a substitute for production database integration.
+6. Demo content is acceptable during development but must be clearly identified and removable.
+7. Never expose secret keys or credentials in client-side code.
+8. Do not claim that authentication, database operations, payment processing, notifications, or deployment work until they have been tested.
+9. When external credentials are missing, build the integration boundary and explain precisely what must be configured.
+10. If a technical limitation prevents a requested feature, explain it and implement the best secure alternative.
+11. Keep the application modular, maintainable, responsive, and accessible.
+12. Provide complete files and working code rather than isolated snippets when generating the project.
+13. After each implementation phase, summarize completed functionality, tests performed, remaining issues, and the next steps.
+14. If the complete project cannot fit into one generation, continue in logical phases without replacing existing working code with an incomplete scaffold.
+
+### 21. FINAL DELIVERABLES
+
+At completion, provide:
+
+- A functional Wedding and Event Vendor Marketplace.
+- Complete frontend and backend source code.
+- Database schema and migrations.
+- Authentication and authorization configuration.
+- Working vendor and customer dashboards.
+- Working search, filters, profiles, inquiries, and bookings.
+- Administrative dashboard.
+- Configurable monetization modules.
+- Payment integration interface.
+- Automated tests and their actual results.
+- `.env.example`.
+- README with installation instructions.
+- Database setup instructions.
+- Deployment instructions suitable for the selected hosting provider.
+- Security checklist.
+- Production launch checklist.
+- A list of integrations that still require credentials, approvals, or manual configuration.
+
+### FINAL INSTRUCTION
+
+Begin with the architecture plan and file structure, then implement the project step by step in the current Google AI Studio environment.
+
+The final objective is a reliable, commercially viable, Cameroon-focused wedding and event marketplace that real customers and vendors can use, starting in Douala and expanding over time.
+
+Do not stop after explaining how to build it. Build as much of the working application as the environment permits, verify what works, and clearly identify what remains before production launch.

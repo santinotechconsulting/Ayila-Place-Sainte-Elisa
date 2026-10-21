@@ -1,0 +1,6 @@
+{
+  "name": "Ayila'a | Place Sainte Elisa",
+  "description": "Cameroon's premier wedding and event vendor marketplace connecting couples and planners with verified venues, caterers, decorators, and event professionals in Douala and beyond.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
